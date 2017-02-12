@@ -25,8 +25,8 @@ opts = list(
   useGrouping = TRUE, 
   separator = ',', 
   decimal = '.', 
-  prefix : 'US$', 
-  suffix : ' bejillion' 
+  prefix = 'US$', 
+  suffix = ' bejillion' 
 )
 
 countup(count = 1729, start = 10, options = opts)
