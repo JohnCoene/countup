@@ -1,0 +1,5 @@
+dependencies:
+ - name: countUp
+   version: 1.8.1
+   src: htmlwidgets/lib/countUp-1.8.1
+   script: countUp-1.8.1.js
