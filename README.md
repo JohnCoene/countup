@@ -1,3 +1,4 @@
+[![Travis-CI Build Status](https://travis-ci.org/JohnCoene/countup.svg?branch=master)](https://travis-ci.org/JohnCoene/countup)
 
 countup
 =======
