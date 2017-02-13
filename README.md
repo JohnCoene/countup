@@ -3,6 +3,8 @@
 countup
 =======
 
+![countup](http://johncoene.github.io/projects/img/modals/countup.gif)
+
 R implementation of [CountUp.js](https://github.com/inorganik/CountUp.js).
 
 Install
