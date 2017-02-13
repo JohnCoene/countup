@@ -16,7 +16,7 @@ HTMLWidgets.widget({
 
       var count = new CountUp(el.id, x.start, x.count, 0, x.duration, options);
       
-      jQuery(document).ready(function($) {
+      jQuery(document).ready(function() {
         count.start();
       });
 
