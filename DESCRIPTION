@@ -9,5 +9,6 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Imports:
-    htmlwidgets
+    htmlwidgets,
+    htmltools
 RoxygenNote: 5.0.1

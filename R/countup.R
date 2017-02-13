@@ -60,6 +60,10 @@ countup <- function(count, start = 0, options = NULL, duration = 2.5, width = NU
   )
 }
 
+countup_html <- function(id, style, class, ...){
+  htmltools::tags$span(id = id, class = class)
+}
+
 #' Shiny bindings for countup
 #'
 #' Output and render functions for using countup within Shiny
