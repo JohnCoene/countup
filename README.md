@@ -3,7 +3,7 @@
 countup
 =======
 
-![countup](http://johncoene.github.io/projects/img/modals/countup.gif)
+![countup](http://johncoene.github.io/projects/img/modals/countuprmd.gif)
 
 R implementation of [CountUp.js](https://github.com/inorganik/CountUp.js).
 
