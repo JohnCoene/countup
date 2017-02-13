@@ -15,7 +15,10 @@ HTMLWidgets.widget({
       var options = x.options;
 
       var count = new CountUp(el.id, x.start, x.count, 0, x.duration, options);
-      count.start();
+      
+      jQuery(document).ready(function($) {
+        count.start();
+      });
 
       },
 
