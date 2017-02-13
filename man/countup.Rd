@@ -23,7 +23,7 @@ string and have \code{'px'} appended.}
 \item{elementId}{Specify element id of \code{<div>} (optional).}
 }
 \description{
-Count up
+Count up widget
 }
 \details{
 Valid options include:

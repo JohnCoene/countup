@@ -1,6 +1,6 @@
 #' countup
 #'
-#' Count up
+#' Count up widget
 #'
 #' @param count numeric or integer to count up to (required).
 #' @param start integer to start from defaults to \code{0}.
@@ -37,7 +37,8 @@
 #' @import htmlwidgets
 #'
 #' @export
-countup <- function(count, start = 0, options = NULL, duration = 2.5, width = NULL, height = NULL, elementId = NULL) {
+countup <- function(count, start = 0, options = NULL, duration = 2.5, 
+                    width = NULL, height = NULL, elementId = NULL) {
 
   if(missing(count)) stop("must pass count")
 
