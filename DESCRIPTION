@@ -1,8 +1,8 @@
 Package: countup
-Title: Implements CountUp.js
-Version: 0.0.0.9000
+Title: R htmlwidget for CountUp.js
+Version: 0.0.1
 Authors@R: person("John", "Coene", email = "jcoenep@gmail.com", role = c("aut", "cre"))
-Description: Implements CountUp.js in R for html documents.
+Description: R htmlwidget for CountUp.js.
 Depends:
     R (>= 3.3.2)
 License: MIT + file LICENSE

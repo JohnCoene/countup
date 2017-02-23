@@ -6,7 +6,7 @@
 #' @param start integer to start from defaults to \code{0}.
 #' @param options list of options (see details and examples).
 #' @param duration duration of the count defaults to \code{2.5}.
-#' @param offset By default the count triggers when \code{10\%} the element 
+#' @param offset By default the count triggers when \code{10\%} of the element 
 #' hits the top of the window. Can also be set to pixels (\code{px}), see details and note.
 #' @param width,height Must be a valid CSS unit (like \code{'100\%'},
 #'   \code{'400px'}, \code{'auto'}) or a number, which will be coerced to a

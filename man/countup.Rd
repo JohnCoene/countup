@@ -16,7 +16,7 @@ countup(count, start = 0, options = NULL, duration = 2.5,
 
 \item{duration}{duration of the count defaults to \code{2.5}.}
 
-\item{offset}{By default the count triggers when \code{10\%} the element 
+\item{offset}{By default the count triggers when \code{10\%} of the element 
 hits the top of the window. Can also be set to pixels (\code{px}), see details and note.}
 
 \item{width, height}{Must be a valid CSS unit (like \code{'100\%'},
