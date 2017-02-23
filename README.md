@@ -35,6 +35,11 @@ opts = list(
 countup(count = 1729, start = 10, options = opts)
 ```
 
+Waypoints
+---------
+
+The htmlwidget uses standalone waypoints.js to trigger the counter, see `offset` argument.
+
 ------------------------------------------------------------------------
 
 See [my other projects](http://johncoene.github.io/projects/)

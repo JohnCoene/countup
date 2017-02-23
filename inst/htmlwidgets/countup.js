@@ -12,12 +12,16 @@ HTMLWidgets.widget({
 
       renderValue: function(x) {
 
-      var options = x.options;
+      var options = x.c.options;
 
-      var count = new CountUp(el.id, x.start, x.count, 0, x.duration, options);
+      var count = new CountUp(el.id, x.c.start, x.c.count, 0, x.c.duration, options);
       
-      jQuery(document).ready(function() {
-        count.start();
+      var waypoint = new Waypoint({
+        element: document.getElementById(el.id),
+        handler: function() {
+          count.start();
+        },
+        offset: x.offset
       });
 
       },

@@ -4,10 +4,6 @@ dependencies:
    src: htmlwidgets/lib/countUp-1.8.1
    script: countUp-1.8.1.js
  - name: waypoints
-   version: 2.0.3
-   src: htmlwidgets/lib/waypoints-2.0.3
-   script: waypoints.min-2.0.3.js
- - name: jquery
-   version: 3.1.1
-   src: htmlwidgets/lib/jquery-3.1.1
-   script: jquery-3.1.1.min.js
+   version: 4.0.1
+   src: htmlwidgets/lib/waypoints-4.0.1
+   script: noframework.waypoints.min.js
