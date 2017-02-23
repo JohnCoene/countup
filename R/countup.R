@@ -6,8 +6,6 @@
 #' @param start integer to start from defaults to \code{0}.
 #' @param options list of options (see details and examples).
 #' @param duration duration of the count defaults to \code{2.5}.
-#' @param offset By default the count triggers when \code{10\%} of the element 
-#' hits the top of the window. Can also be set to pixels (\code{px}), see details and note.
 #' @param width,height Must be a valid CSS unit (like \code{'100\%'},
 #'   \code{'400px'}, \code{'auto'}) or a number, which will be coerced to a
 #'   string and have \code{'px'} appended.
@@ -22,13 +20,6 @@
 #' \item{prefix}{takes a string, i.e.: "$"}
 #' \item{suffix}{takes a string, i.e.: "thousands"}
 #' }
-#' 
-#' The widget includes standalone waypoints.js, the offset argument is passed to 
-#' to the waypoint: \url{http://imakewebthings.com/waypoints/guides/getting-started/}. See note.
-#' 
-#' @note The offset defaulting to \code{10\%} is a workaround to have it work 
-#' in RStudio viewer. It should not be a problem in Rmarkdown unless your 
-#' counter is placed at the very bottom of your document.
 #'
 #' @examples
 #' \dontrun{
@@ -47,19 +38,16 @@
 #'
 #' @export
 countup <- function(count, start = 0, options = NULL, duration = 2.5, 
-                    offset = "10%", width = NULL, height = NULL, elementId = NULL) {
+                    width = NULL, height = NULL, elementId = NULL) {
 
   if(missing(count)) stop("must pass count")
 
   # forward options using x
   x = list(
-    c = list(
-      count = count,
-      start = start,
-      options = options,
-      duration = duration
-    ),
-    offset = offset
+    count = count,
+    start = start,
+    options = options,
+    duration = duration
   )
 
   # create widget

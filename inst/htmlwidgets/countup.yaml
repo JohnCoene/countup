@@ -3,7 +3,3 @@ dependencies:
    version: 1.8.1
    src: htmlwidgets/lib/countUp-1.8.1
    script: countUp-1.8.1.js
- - name: waypoints
-   version: 4.0.1
-   src: htmlwidgets/lib/waypoints-4.0.1
-   script: noframework.waypoints.min.js
