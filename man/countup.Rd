@@ -28,12 +28,12 @@ Count up widget
 \details{
 Valid options include:
 \itemize{
-\item{useEasing}{takes \code{TRUE} or \code{FALSE}}
-\item{useGrouping}{takes \code{TRUE} or \code{FALSE}}
-\item{separator}{takes a string, i.e.: ","}
-\item{decimal}{takes a string, i.e.: "."}
-\item{prefix}{takes a string, i.e.: "$"}
-\item{suffix}{takes a string, i.e.: "thousands"}
+\item{useEasing }{takes \code{TRUE} or \code{FALSE}}
+\item{useGrouping }{takes \code{TRUE} or \code{FALSE}}
+\item{separator }{takes a string, i.e.: ","}
+\item{decimal }{takes a string, i.e.: "."}
+\item{prefix }{takes a string, i.e.: "$"}
+\item{suffix }{takes a string, i.e.: "thousands"}
 }
 }
 \examples{
@@ -50,4 +50,3 @@ countup(1234, start = 200, options = opts)
 }
 
 }
-

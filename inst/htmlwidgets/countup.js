@@ -6,23 +6,29 @@ HTMLWidgets.widget({
 
   factory: function(el, width, height) {
 
-    // TODO: define shared variables for this instance
+    var count;
 
     return {
 
       renderValue: function(x) {
-
-      var options = x.options;
-
-      var count = new CountUp(el.id, x.start, x.count, 0, x.duration, options);
-      
-      count.start();
+        
+        var options = x.options;
+        
+        if(HTMLWidgets.shinyMode){
+          if (document.readyState === 'complete') {
+            count = new CountUp(el.id, x.start, x.count, 0, x.duration, options);
+          
+            count.start(); 
+          }
+        } else {
+          count = new CountUp(el.id, x.start, x.count, 0, x.duration, options);
+          
+          count.start(); 
+        }
 
       },
 
       resize: function(width, height) {
-
-        // TODO: code to re-render the widget with a new size
 
       }
 
