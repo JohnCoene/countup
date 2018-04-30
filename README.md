@@ -6,7 +6,7 @@ countup
 
 R implementation of [CountUp.js](https://github.com/inorganik/CountUp.js).
 
-See [site](http://john-coene.com/countup) for all details.
+See [example post](http://john-coene.com/post/countup/) for all details.
 
 Install
 -------
@@ -34,8 +34,3 @@ opts = list(
 
 countup(count = 1729, start = 10, options = opts)
 ```
-
-Waypoints
----------
-
-The htmlwidget uses standalone waypoints.js to trigger the counter, see `offset` argument.

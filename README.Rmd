@@ -38,7 +38,3 @@ opts = list(
 
 countup(count = 1729, start = 10, options = opts)
 ```
-
-----------------------------------------
-
-See [my other projects](http://johncoene.github.io/projects/)
