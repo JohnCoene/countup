@@ -1,22 +1,16 @@
-[![Travis-CI Build Status](https://travis-ci.org/JohnCoene/countup.svg?branch=master)](https://travis-ci.org/JohnCoene/countup)
-[![saythanks](https://img.shields.io/badge/say-thanks-ff69b4.svg)](https://saythanks.io/to/JohnCoene)
 
-countup
-========
+# countup
 
-R implementation of [CountUp.js](https://github.com/inorganik/CountUp.js).
+R implementation of
+[CountUp.js](https://github.com/inorganik/CountUp.js).
 
-See [example post](http://john-coene.com/post/countup/) for all details.
-
-Install
--------
+## Install
 
 ``` r
 devtools::install_github("JohnCoene/countup")
 ```
 
-Examples
---------
+## Examples
 
 ``` r
 library(countup)
