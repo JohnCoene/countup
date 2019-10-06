@@ -4,23 +4,25 @@
 \alias{countup}
 \title{countup}
 \usage{
-countup(count, start = 0, options = NULL, duration = 2.5, width = NULL,
-  height = NULL, elementId = NULL)
+countup(count, start_at = 0, options = NULL, duration = 2.5,
+  start = TRUE, width = NULL, height = NULL, elementId = NULL)
 }
 \arguments{
-\item{count}{numeric or integer to count up to (required).}
+\item{count}{Numeric or integer to count up to (required).}
 
-\item{start}{integer to start from defaults to \code{0}.}
+\item{start_at}{Integer to start from defaults to \code{0}.}
 
-\item{options}{list of options (see details and examples).}
+\item{options}{List of options (see details and examples).}
 
 \item{duration}{duration of the count defaults to \code{2.5}.}
+
+\item{start}{Whether to start the counter.}
 
 \item{width, height}{Must be a valid CSS unit (like \code{'100\%'},
 \code{'400px'}, \code{'auto'}) or a number, which will be coerced to a
 string and have \code{'px'} appended.}
 
-\item{elementId}{Specify element id of \code{<div>} (optional).}
+\item{elementId}{Specify element id of \code{<span>} (optional).}
 }
 \description{
 Count up widget

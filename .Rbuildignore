@@ -4,3 +4,4 @@
 ^README-.*\.png$
 ^\.travis\.yml$
 .gitattributes
+test.R

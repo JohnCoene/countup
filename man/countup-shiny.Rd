@@ -4,11 +4,14 @@
 \alias{countup-shiny}
 \alias{countupOutput}
 \alias{renderCountup}
+\alias{countupProxy}
 \title{Shiny bindings for countup}
 \usage{
 countupOutput(outputId, width = "100\%", height = "400px")
 
 renderCountup(expr, env = parent.frame(), quoted = FALSE)
+
+countupProxy(id, session = shiny::getDefaultReactiveDomain())
 }
 \arguments{
 \item{outputId}{output variable to read from}
@@ -23,6 +26,10 @@ string and have \code{'px'} appended.}
 
 \item{quoted}{Is \code{expr} a quoted expression (with \code{quote()})? This
 is useful if you want to save an expression in a variable.}
+
+\item{id}{Id of \code{countup} object to create a proxy.}
+
+\item{session}{A valid shiny session.}
 }
 \description{
 Output and render functions for using countup within Shiny

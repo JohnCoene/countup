@@ -1,6 +1,6 @@
 Package: countup
 Title: R htmlwidget for CountUp.js
-Version: 0.0.1
+Version: 0.1.0
 Authors@R: person("John", "Coene", email = "jcoenep@gmail.com", role = c("aut", "cre"))
 Description: R htmlwidget for CountUp.js.
 Depends:
@@ -10,5 +10,7 @@ Encoding: UTF-8
 LazyData: true
 Imports:
     htmlwidgets,
-    htmltools
-RoxygenNote: 6.0.1
+    htmltools,
+    magrittr,
+    shiny
+RoxygenNote: 6.1.1
