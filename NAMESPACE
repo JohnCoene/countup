@@ -2,6 +2,7 @@
 
 S3method(countup_pause_resume,countupProxy)
 S3method(countup_start,countupProxy)
+S3method(countup_update,countupProxy)
 export("%>%")
 export(countup)
 export(countupOutput)

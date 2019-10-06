@@ -70,7 +70,7 @@ countup_start.countupProxy <- function(counter){
 countup_update <- function(counter, update) UseMethod("countup_update")
 
 #' @export 
-#' @method countup_start countupProxy
+#' @method countup_update countupProxy
 countup_update.countupProxy <- function(counter, update){
   counter$session$sendCustomMessage("counter_update", list(id = counter$id, update = update))
 }
