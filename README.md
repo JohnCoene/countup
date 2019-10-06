@@ -1,8 +1,10 @@
 
-countup
-=======
+<!-- badges: start -->
+[![Travis build status](https://travis-ci.org/JohnCoene/countup.svg?branch=master)](https://travis-ci.org/JohnCoene/countup) <!-- badges: end -->
 
-R implementation of [CountUp.js](https://github.com/inorganik/CountUp.js).
+![](./man/figures/logo.png)
+
+The underlying JavaScript library is [CountUp.js](https://github.com/inorganik/CountUp.js).
 
 Install
 -------
