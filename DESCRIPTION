@@ -1,8 +1,9 @@
 Package: countup
-Title: R htmlwidget for CountUp.js
+Title: Create animated counters
 Version: 0.1.0
+Date: 2020-02-20
 Authors@R: person("John", "Coene", email = "jcoenep@gmail.com", role = c("aut", "cre"))
-Description: R htmlwidget for CountUp.js.
+Description: Create animated counter ups.
 Depends:
     R (>= 3.3.2)
 License: MIT + file LICENSE
