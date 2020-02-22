@@ -4,8 +4,16 @@
 \alias{countup}
 \title{countup}
 \usage{
-countup(count, start_at = 0, options = NULL, duration = 2.5,
-  start = TRUE, width = NULL, height = NULL, elementId = NULL)
+countup(
+  count,
+  start_at = 0,
+  options = NULL,
+  duration = 2.5,
+  start = TRUE,
+  width = NULL,
+  height = NULL,
+  elementId = NULL
+)
 }
 \arguments{
 \item{count}{Numeric or integer to count up to (required).}
