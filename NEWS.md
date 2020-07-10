@@ -1,3 +1,7 @@
+# countup 0.1.1
+
+Added [odometer](https://github.hubspot.com/odometer/), see [#3](https://github.com/JohnCoene/countup/issues/3).
+
 # countup 0.1.0
 
 In `countup`:

@@ -1,6 +1,6 @@
 Package: countup
 Title: Create animated counters
-Version: 0.1.0
+Version: 0.1.1
 Date: 2020-02-20
 Authors@R: person("John", "Coene", email = "jcoenep@gmail.com", role = c("aut", "cre"))
 Description: Create animated counter ups.
