@@ -7,3 +7,4 @@
 test.R
 srcjs
 ^cran-comments\.md$
+^CRAN-RELEASE$
