@@ -34,6 +34,8 @@
 #'
 #' countup(1234, start = 200, options = opts)
 #' }
+#' 
+#' @return An object of class `countup`
 #'
 #' @import htmlwidgets
 #'

@@ -7,7 +7,10 @@
 countup_start(counter)
 }
 \arguments{
-\item{counter}{An object of class \code{countupProxy} as returned by \code{\link{countupProxy}}.}
+\item{counter}{An object of class \code{countupProxy} as returned by \code{\link[=countupProxy]{countupProxy()}}.}
+}
+\value{
+The \code{counter}
 }
 \description{
 Start the counter.

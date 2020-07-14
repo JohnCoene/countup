@@ -20,7 +20,7 @@ odometer(
 
 \item{duration}{Duration of countup.}
 
-\item{format}{Change how digit groups are formatted, and 
+\item{format}{Change how digit groups are formatted, and
 how many digits are shown after the decimal point.}
 
 \item{theme}{An odometer theme, see \url{https://github.hubspot.com/odometer/api/themes/}}
@@ -31,4 +31,8 @@ how many digits are shown after the decimal point.}
 }
 \description{
 Create an odometer.
+}
+\examples{
+odometer(12345)
+
 }

@@ -32,6 +32,9 @@ string and have \code{'px'} appended.}
 
 \item{elementId}{Specify element id of \code{<span>} (optional).}
 }
+\value{
+An object of class \code{countup}
+}
 \description{
 Count up widget
 }

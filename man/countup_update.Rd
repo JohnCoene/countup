@@ -7,9 +7,12 @@
 countup_update(counter, update)
 }
 \arguments{
-\item{counter}{An object of class \code{countupProxy} as returned by \code{\link{countupProxy}}.}
+\item{counter}{An object of class \code{countupProxy} as returned by \code{\link[=countupProxy]{countupProxy()}}.}
 
 \item{update}{Integer to update to.}
+}
+\value{
+The \code{counter}
 }
 \description{
 Update the counter.

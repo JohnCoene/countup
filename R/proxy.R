@@ -2,7 +2,7 @@
 #' 
 #' Start the counter.
 #' 
-#' @param counter An object of class \code{countupProxy} as returned by \code{\link{countupProxy}}.
+#' @param counter An object of class `countupProxy` as returned by [countupProxy()].
 #' 
 #' @examples 
 #' library(shiny)
@@ -27,6 +27,8 @@
 #' 
 #' \dontrun{shinyApp(ui, server)}
 #' 
+#' @return The `counter`
+#' 
 #' @export
 countup_start <- function(counter) UseMethod("countup_start")
 
@@ -34,6 +36,7 @@ countup_start <- function(counter) UseMethod("countup_start")
 #' @method countup_start countupProxy
 countup_start.countupProxy <- function(counter){
   counter$session$sendCustomMessage("counter_start", list(id = counter$id))
+  invisible(counter)
 }
 
 #' Update
@@ -66,6 +69,8 @@ countup_start.countupProxy <- function(counter){
 #' 
 #' \dontrun{shinyApp(ui, server)}
 #' 
+#' @return The `counter`
+#' 
 #' @export
 countup_update <- function(counter, update) UseMethod("countup_update")
 
@@ -73,6 +78,7 @@ countup_update <- function(counter, update) UseMethod("countup_update")
 #' @method countup_update countupProxy
 countup_update.countupProxy <- function(counter, update){
   counter$session$sendCustomMessage("counter_update", list(id = counter$id, update = update))
+  invisible(counter)
 }
 
 #' Pause Resume
@@ -104,6 +110,8 @@ countup_update.countupProxy <- function(counter, update){
 #' 
 #' \dontrun{shinyApp(ui, server)}
 #' 
+#' @return The `counter`
+#' 
 #' @export
 countup_pause_resume <- function(counter) UseMethod("countup_pause_resume")
 
@@ -111,4 +119,5 @@ countup_pause_resume <- function(counter) UseMethod("countup_pause_resume")
 #' @method countup_pause_resume countupProxy
 countup_pause_resume.countupProxy <- function(counter){
   counter$session$sendCustomMessage("counter_pause_resume", list(id = counter$id))
+  invisible(counter)
 }
