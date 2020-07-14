@@ -1,13 +1,16 @@
 
 <!-- badges: start -->
-[![Travis build status](https://travis-ci.org/JohnCoene/countup.svg?branch=master)](https://travis-ci.org/JohnCoene/countup) <!-- badges: end -->
+
+[![Travis build
+status](https://travis-ci.org/JohnCoene/countup.svg?branch=master)](https://travis-ci.org/JohnCoene/countup)
+<!-- badges: end -->
 
 ![](./man/figures/logo.png)
 
-The underlying JavaScript library is [CountUp.js](https://github.com/inorganik/CountUp.js).
+The underlying JavaScript library is
+[CountUp.js](https://github.com/inorganik/CountUp.js).
 
-Install
--------
+## Install
 
 Install from Github with `remotes`:
 
@@ -16,8 +19,12 @@ Install from Github with `remotes`:
 remotes::install_github("JohnCoene/countup")
 ```
 
-Examples
---------
+## News
+
+Since version `0.1.1` the package also includes the
+[odometer](https://github.hubspot.com/odometer/docs/welcome/) widget.
+
+## Examples
 
 In the R console or R markdown.
 
@@ -38,7 +45,8 @@ opts = list(
 countup(count = 1729, start = 10, options = opts)
 ```
 
-In Shiny (since version `0.1.0`), there are methods to programatically interact with the counter.
+In Shiny (since version `0.1.0`), there are methods to programatically
+interact with the counter.
 
 ``` r
 library(shiny)
