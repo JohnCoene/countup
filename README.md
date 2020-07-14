@@ -21,8 +21,11 @@ remotes::install_github("JohnCoene/countup")
 
 ## News
 
-Since version `0.1.1` the package also includes the
-[odometer](https://github.hubspot.com/odometer/docs/welcome/) widget.
+Since version `0.1.1` the package also includes the [odometer](https://github.hubspot.com/odometer/docs/welcome/) widget.
+
+```r
+odometer(12345)
+```
 
 ## Examples
 

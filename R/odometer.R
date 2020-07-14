@@ -9,6 +9,9 @@
 #' @param theme An odometer theme, see \url{https://github.hubspot.com/odometer/api/themes/}
 #' @param width,height Dimensions.
 #' @param elementId Id of element holding the odometer.
+#' 
+#' @examples 
+#' odometer(12345)
 #'
 #' @import htmlwidgets
 #'
