@@ -7,8 +7,9 @@ status](https://travis-ci.org/JohnCoene/countup.svg?branch=master)](https://trav
 
 ![](./man/figures/logo.png)
 
-The underlying JavaScript library is
-[CountUp.js](https://github.com/inorganik/CountUp.js).
+The underlying JavaScript libraries are
+[CountUp.js](https://github.com/inorganik/CountUp.js), and
+[Odometer](https://github.hubspot.com/odometer/docs/welcome/).
 
 ## Install
 
@@ -21,11 +22,8 @@ remotes::install_github("JohnCoene/countup")
 
 ## News
 
-Since version `0.1.1` the package also includes the [odometer](https://github.hubspot.com/odometer/docs/welcome/) widget.
-
-```r
-odometer(12345)
-```
+Since version `0.1.1` the package also includes the
+[odometer](https://github.hubspot.com/odometer/docs/welcome/) widget.
 
 ## Examples
 

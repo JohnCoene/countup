@@ -18,7 +18,7 @@ knitr::opts_chunk$set(
 
 ![](./man/figures/logo.png)
 
-The underlying JavaScript library is [CountUp.js](https://github.com/inorganik/CountUp.js).
+The underlying JavaScript libraries are [CountUp.js](https://github.com/inorganik/CountUp.js), and [Odometer](https://github.hubspot.com/odometer/docs/welcome/).
 
 ## Install
 
