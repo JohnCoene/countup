@@ -4,9 +4,7 @@
 #'
 #' @param count Numeric or integer to count up to (required).
 #' @param start Whether to start the counter.
-#' @param start_at Integer to start from defaults to \code{0}.
-#' @param options List of options (see details and examples).
-#' @param duration duration of the count defaults to \code{2.5}.
+#' @param ... Any additional options.
 #' @param width,height Must be a valid CSS unit (like \code{'100\%'},
 #'   \code{'400px'}, \code{'auto'}) or a number, which will be coerced to a
 #'   string and have \code{'px'} appended.
@@ -15,14 +13,6 @@
 #' @examples
 #' \dontrun{
 #' countup(25)
-#'
-#' opts <- list(useEasing = TRUE,
-#'              useGrouping = TRUE,
-#'              separator = "'",
-#'              prefix = "US$",
-#'              suffix = " million")
-#'
-#' countup(1234, start = 200, options = opts)
 #' }
 #' 
 #' @return An object of class `countup`
