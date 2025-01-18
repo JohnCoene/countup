@@ -42,16 +42,15 @@ library(countup)
 
 countup(25)
 
-opts = list(
-  useEasing = TRUE, 
-  useGrouping = TRUE, 
-  separator = ',', 
-  decimal = '.', 
-  prefix = 'US$', 
-  suffix = ' bejillion' 
+countup(
+  count = 1729,
+  useEasing = TRUE,
+  useGrouping = TRUE,
+  separator = ",",
+  decimal = ".",
+  prefix = "US$",
+  suffix = " bejillion"
 )
-
-countup(count = 1729, start = 10, options = opts)
 ```
 
 In Shiny (since version `0.1.0`), there are methods to programatically interact with the counter.

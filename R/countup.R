@@ -12,16 +12,6 @@
 #'   string and have \code{'px'} appended.
 #' @param elementId Specify element id of \code{<span>} (optional).
 #'
-#' @details Valid options include:
-#' \itemize{
-#' \item{useEasing }{takes \code{TRUE} or \code{FALSE}}
-#' \item{useGrouping }{takes \code{TRUE} or \code{FALSE}}
-#' \item{separator }{takes a string, i.e.: ","}
-#' \item{decimal }{takes a string, i.e.: "."}
-#' \item{prefix }{takes a string, i.e.: "$"}
-#' \item{suffix }{takes a string, i.e.: "thousands"}
-#' }
-#'
 #' @examples
 #' \dontrun{
 #' countup(25)
@@ -40,19 +30,22 @@
 #' @import htmlwidgets
 #'
 #' @export
-countup <- function(count, start_at = 0, options = NULL, duration = 2.5, 
-                    start = TRUE, width = NULL, height = NULL, 
-                    elementId = NULL) {
+countup <- function(
+  count = 1000,
+  ...,
+  start = TRUE,
+  width = NULL,
+  height = NULL,
+  elementId = NULL
+) {
 
   if(missing(count)) stop("must pass count")
 
   # forward options using x
-  x = list(
+  x <- list(
     count = count,
     start = start,
-    start_at = start_at,
-    options = options,
-    duration = duration
+    options = list(...)
   )
 
   # create widget
